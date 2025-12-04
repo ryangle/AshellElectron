@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "@components/*": ["src/renderer/src/components/*"]
+    },
+    "types": ["element-plus/global"],
+    "target": "esnext",
+    "module": "commonjs",
+    "checkJs": false,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true
+  },
+  "exclude": ["node_modules", "dist", "build"],
+  "include": ["src/**/*", "types/**/*"]
+}

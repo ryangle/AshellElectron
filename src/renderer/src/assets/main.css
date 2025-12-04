@@ -143,6 +143,13 @@ code {
   }
 }
 
+.drag {
+  -webkit-app-region: drag;
+}
+.nodrag {
+  -webkit-app-region: no-drag;
+}
+
 @media (max-width: 720px) {
   .text {
     font-size: 20px;
